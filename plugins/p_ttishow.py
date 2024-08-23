@@ -8,7 +8,7 @@ from utils import get_size, temp, get_settings
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
+"""-----------------------------------------https://t.me//4179 --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -67,7 +67,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_bot')
+            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/alien_zx')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -106,7 +106,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_bot')
+            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
